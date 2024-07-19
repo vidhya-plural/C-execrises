@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\bin\Debug\net8.0\Csharp_exe.exe
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\bin\Debug\net8.0\Csharp_exe.deps.json
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\bin\Debug\net8.0\Csharp_exe.runtimeconfig.json
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\bin\Debug\net8.0\Csharp_exe.dll
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\bin\Debug\net8.0\Csharp_exe.pdb
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.sourcelink.json
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.dll
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\refint\Csharp_exe.dll
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.pdb
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\Csharp_exe.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\Csharp\C-execrises\Csharp_exe\Csharp_exe\obj\Debug\net8.0\ref\Csharp_exe.dll
