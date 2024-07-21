@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\bin\Debug\net8.0\exec3.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\bin\Debug\net8.0\exec3.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\bin\Debug\net8.0\exec3.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\bin\Debug\net8.0\exec3.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\bin\Debug\net8.0\exec3.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\refint\exec3.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\exec3.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec3\exec3\obj\Debug\net8.0\ref\exec3.dll

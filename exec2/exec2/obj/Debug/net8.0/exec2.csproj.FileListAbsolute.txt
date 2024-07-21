@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\bin\Debug\net8.0\exec2.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\bin\Debug\net8.0\exec2.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\bin\Debug\net8.0\exec2.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\bin\Debug\net8.0\exec2.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\bin\Debug\net8.0\exec2.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\refint\exec2.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\exec2.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\exec2\exec2\obj\Debug\net8.0\ref\exec2.dll

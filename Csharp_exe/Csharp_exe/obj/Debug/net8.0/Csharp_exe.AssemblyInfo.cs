@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_exe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f077fe2d914b6a280e694c133d7b2b85ec867d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed903cf9d5a09c10986f339ce0deaa47d9d5be2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Csharp_exe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Csharp_exe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
