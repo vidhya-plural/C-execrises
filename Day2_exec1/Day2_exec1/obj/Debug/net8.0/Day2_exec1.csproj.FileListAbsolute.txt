@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\bin\Debug\net8.0\Day2_exec1.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\bin\Debug\net8.0\Day2_exec1.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\bin\Debug\net8.0\Day2_exec1.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\bin\Debug\net8.0\Day2_exec1.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\bin\Debug\net8.0\Day2_exec1.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\refint\Day2_exec1.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\Day2_exec1.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day2_exec1\Day2_exec1\obj\Debug\net8.0\ref\Day2_exec1.dll
