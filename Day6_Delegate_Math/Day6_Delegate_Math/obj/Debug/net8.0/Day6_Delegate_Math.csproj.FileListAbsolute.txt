@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\bin\Debug\net8.0\Day6_Delegate_Math.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\bin\Debug\net8.0\Day6_Delegate_Math.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\bin\Debug\net8.0\Day6_Delegate_Math.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\bin\Debug\net8.0\Day6_Delegate_Math.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\bin\Debug\net8.0\Day6_Delegate_Math.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\refint\Day6_Delegate_Math.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\Day6_Delegate_Math.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Math\Day6_Delegate_Math\obj\Debug\net8.0\ref\Day6_Delegate_Math.dll
