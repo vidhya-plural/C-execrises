@@ -1,0 +1,14 @@
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\bin\Debug\net8.0\PetStoreApp.exe
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\bin\Debug\net8.0\PetStoreApp.deps.json
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\bin\Debug\net8.0\PetStoreApp.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\bin\Debug\net8.0\PetStoreApp.dll
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\bin\Debug\net8.0\PetStoreApp.pdb
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.dll
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\refint\PetStoreApp.dll
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.pdb
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\PetStoreApp.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\PetStoreApp\PetStoreApp\obj\Debug\net8.0\ref\PetStoreApp.dll

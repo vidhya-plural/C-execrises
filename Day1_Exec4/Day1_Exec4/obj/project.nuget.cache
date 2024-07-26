@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9VcTzZkyVnA=",
+  "dgSpecHash": "BRwRhVFGE/o=",
   "success": true,
   "projectFilePath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\Day1_Exec4.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "D:\\Users\\vidhya\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

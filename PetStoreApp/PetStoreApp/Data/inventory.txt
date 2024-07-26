@@ -1,0 +1,5 @@
+1,Food,Dog Food,High-quality dry dog food,15.49,50,BrandA,Dry,Dog
+2,Accessory,Cat Collar,Cat collar with bell,5.99,20,Small,Blue
+3,Cage,Parrot Cage,Large parrot cage with toys,120.00,5,24x24x36,Wire
+4,Aquarium,50-gallon Fish Tank,50-gallon fish tank with stand,200.00,3,50,Rectangle
+5,Toy,Hedgehog Wheel,Exercise wheel for hedgehogs,12.49,8,Plastic,6months+

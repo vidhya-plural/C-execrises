@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\Day1_Exec4.csproj": {}
+    "D:\\Users\\vidhya\\Desktop\\csharp\\PetStoreApp\\PetStoreApp\\PetStoreApp.csproj": {}
   },
   "projects": {
-    "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\Day1_Exec4.csproj": {
+    "D:\\Users\\vidhya\\Desktop\\csharp\\PetStoreApp\\PetStoreApp\\PetStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\Day1_Exec4.csproj",
-        "projectName": "Day1_Exec4",
-        "projectPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\Day1_Exec4.csproj",
+        "projectUniqueName": "D:\\Users\\vidhya\\Desktop\\csharp\\PetStoreApp\\PetStoreApp\\PetStoreApp.csproj",
+        "projectName": "PetStoreApp",
+        "projectPath": "D:\\Users\\vidhya\\Desktop\\csharp\\PetStoreApp\\PetStoreApp\\PetStoreApp.csproj",
         "packagesPath": "D:\\Users\\vidhya\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Day1_Exec4\\Day1_Exec4\\obj\\",
+        "outputPath": "D:\\Users\\vidhya\\Desktop\\csharp\\PetStoreApp\\PetStoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\vidhya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,12 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

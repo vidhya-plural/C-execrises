@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\bin\Debug\net8.0\Day3_PetStore.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\bin\Debug\net8.0\Day3_PetStore.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\bin\Debug\net8.0\Day3_PetStore.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\bin\Debug\net8.0\Day3_PetStore.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\bin\Debug\net8.0\Day3_PetStore.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\refint\Day3_PetStore.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\Day3_PetStore.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day3_PetStore\Day3_PetStore\obj\Debug\net8.0\ref\Day3_PetStore.dll
