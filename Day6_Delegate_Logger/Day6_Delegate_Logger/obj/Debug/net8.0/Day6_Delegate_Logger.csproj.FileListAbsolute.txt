@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\bin\Debug\net8.0\Day6_Delegate_Logger.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\bin\Debug\net8.0\Day6_Delegate_Logger.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\bin\Debug\net8.0\Day6_Delegate_Logger.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\bin\Debug\net8.0\Day6_Delegate_Logger.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\bin\Debug\net8.0\Day6_Delegate_Logger.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\refint\Day6_Delegate_Logger.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\Day6_Delegate_Logger.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day6_Delegate_Logger\Day6_Delegate_Logger\obj\Debug\net8.0\ref\Day6_Delegate_Logger.dll

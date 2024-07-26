@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\bin\Debug\net8.0\PaymentProcessingApp.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\bin\Debug\net8.0\PaymentProcessingApp.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\bin\Debug\net8.0\PaymentProcessingApp.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\bin\Debug\net8.0\PaymentProcessingApp.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\bin\Debug\net8.0\PaymentProcessingApp.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\refint\PaymentProcessingApp.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\PaymentProcessingApp.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\PaymentProcessingApp\PaymentProcessingApp\obj\Debug\net8.0\ref\PaymentProcessingApp.dll
