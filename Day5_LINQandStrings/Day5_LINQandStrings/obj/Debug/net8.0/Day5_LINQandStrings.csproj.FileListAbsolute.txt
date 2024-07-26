@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\bin\Debug\net8.0\Day5_LINQandStrings.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\bin\Debug\net8.0\Day5_LINQandStrings.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\bin\Debug\net8.0\Day5_LINQandStrings.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\bin\Debug\net8.0\Day5_LINQandStrings.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\bin\Debug\net8.0\Day5_LINQandStrings.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\refint\Day5_LINQandStrings.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\Day5_LINQandStrings.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandStrings\Day5_LINQandStrings\obj\Debug\net8.0\ref\Day5_LINQandStrings.dll

@@ -1,0 +1,15 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\bin\Debug\net8.0\Day5_LINQandNumbers.exe
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\bin\Debug\net8.0\Day5_LINQandNumbers.deps.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\bin\Debug\net8.0\Day5_LINQandNumbers.runtimeconfig.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\bin\Debug\net8.0\Day5_LINQandNumbers.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\bin\Debug\net8.0\Day5_LINQandNumbers.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.sourcelink.json
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\refint\Day5_LINQandNumbers.dll
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.pdb
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\Day5_LINQandNumbers.genruntimeconfig.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Day5_LINQandNumbers\Day5_LINQandNumbers\obj\Debug\net8.0\ref\Day5_LINQandNumbers.dll
