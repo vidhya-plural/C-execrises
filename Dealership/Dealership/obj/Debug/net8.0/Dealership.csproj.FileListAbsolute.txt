@@ -1,0 +1,6 @@
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.csproj.AssemblyReference.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.AssemblyInfoInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.AssemblyInfo.cs
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.csproj.CoreCompileInputs.cache
+D:\Users\vidhya\Desktop\csharp\C-execrises\Dealership\Dealership\obj\Debug\net8.0\Dealership.sourcelink.json
