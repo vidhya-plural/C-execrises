@@ -1,0 +1,85 @@
+/* Updated styles for enhanced dashboard */
+.dashboard-content {
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.dashboard-content h4 {
+  font-size: 24px;
+  margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+.dashboard-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px; /* Adjusted margin-bottom */
+}
+
+.dashboard-content .card {
+  height: 150px; /* Reduced height */
+  transition: transform 0.3s ease; /* Example transition */
+  margin-bottom: 15px; /* Reduced bottom margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+.dashboard-content .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  padding: 10px; /* Adjusted padding */
+}
+
+.dashboard-content .card-title {
+  font-size: 16px; /* Reduced font size */
+  font-weight: bold;
+}
+
+.dashboard-content .card .display-4 {
+  font-size: 2.5rem; /* Reduced font size */
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  font-size: 16px; /* Increased font size */
+}
+
+.nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav-link.active:hover {
+  background-color: #007bff;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.card-img-top.book-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; /* Reduced max-height */
+  object-fit: cover; /* Ensures image fits well */
+}
+
+.card.text-white.bg-primary {
+  max-width: 220px;
+  min-height: 150px;
+}
+
+.card.text-white.bg-warning {
+  max-width: 220px;
+  min-height: 150px;
+}
+
+.card.text-white.bg-success {
+  max-width: 220px;
+  min-height: 150px;
+}
