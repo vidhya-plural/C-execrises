@@ -9,6 +9,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace BookstoreApi.Controllers
 {
@@ -19,11 +20,13 @@ namespace BookstoreApi.Controllers
         private readonly BookstoreContext _context;
         private readonly string _uploadsFolderPath;
         private const string DateFormat = "yyyy-MM-dd"; // Define the date format
+        private readonly ILogger<BooksController> _logger;
 
-        public BooksController(BookstoreContext context)
+        public BooksController(BookstoreContext context, ILogger<BooksController> logger)
         {
             _context = context;
             _uploadsFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+            _logger = logger;
 
             // Ensure the uploads folder exists
             if (!Directory.Exists(_uploadsFolderPath))
@@ -35,49 +38,68 @@ namespace BookstoreApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<BookDTO>>> GetBooks()
         {
-            var books = await _context.Books
-                .Include(b => b.Author)
-                .Include(b => b.Genre)
-                .Select(b => new BookDTO
-                {
-                    book_id = b.book_id,
-                    title = b.title,
-                    author_id = b.author_id,
-                    genre_id = b.genre_id,
-                    price = b.price,
-                    publication_date = b.publication_date.ToString(DateFormat), // Format date to string
-                    image = b.image // URL to image file
-                })
-                .ToListAsync();
+            try
+            {
+                var books = await _context.Books
+                    .Include(b => b.Author)
+                    .Include(b => b.Genre)
+                    .Select(b => new BookDTO
+                    {
+                        book_id = b.book_id,
+                        title = b.title,
+                        author_id = b.author_id,
+                        genre_id = b.genre_id,
+                        price = b.price,
+                        publication_date = b.publication_date.ToString(DateFormat), // Format date to string
+                        image = b.image // URL to image file
+                    })
+                    .ToListAsync();
 
-            return Ok(books);
+                _logger.LogInformation("Fetched {Count} books", books.Count);
+                return Ok(books);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching books");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error fetching books");
+            }
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<BookDTO>> GetBook(int id)
         {
-            var book = await _context.Books
-                .Include(b => b.Author)
-                .Include(b => b.Genre)
-                .Where(b => b.book_id == id)
-                .Select(b => new BookDTO
-                {
-                    book_id = b.book_id,
-                    title = b.title,
-                    author_id = b.author_id,
-                    genre_id = b.genre_id,
-                    price = b.price,
-                    publication_date = b.publication_date.ToString(DateFormat), // Format date to string
-                    image = b.image // URL to image file
-                })
-                .FirstOrDefaultAsync();
-
-            if (book == null)
+            try
             {
-                return NotFound();
-            }
+                var book = await _context.Books
+                    .Include(b => b.Author)
+                    .Include(b => b.Genre)
+                    .Where(b => b.book_id == id)
+                    .Select(b => new BookDTO
+                    {
+                        book_id = b.book_id,
+                        title = b.title,
+                        author_id = b.author_id,
+                        genre_id = b.genre_id,
+                        price = b.price,
+                        publication_date = b.publication_date.ToString(DateFormat), // Format date to string
+                        image = b.image // URL to image file
+                    })
+                    .FirstOrDefaultAsync();
 
-            return Ok(book);
+                if (book == null)
+                {
+                    _logger.LogWarning("Book not found: {Id}", id);
+                    return NotFound();
+                }
+
+                _logger.LogInformation("Fetched book with ID: {Id}", id);
+                return Ok(book);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching book with ID: {Id}", id);
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error fetching book");
+            }
         }
 
         [HttpPost]
@@ -86,11 +108,13 @@ namespace BookstoreApi.Controllers
             // Validate author and genre existence
             if (!await _context.Authors.AnyAsync(a => a.author_id == bookDTO.author_id))
             {
+                _logger.LogWarning("Invalid author ID: {AuthorId}", bookDTO.author_id);
                 return BadRequest("Invalid author ID.");
             }
 
             if (!await _context.Genres.AnyAsync(g => g.genre_id == bookDTO.genre_id))
             {
+                _logger.LogWarning("Invalid genre ID: {GenreId}", bookDTO.genre_id);
                 return BadRequest("Invalid genre ID.");
             }
 
@@ -100,6 +124,7 @@ namespace BookstoreApi.Controllers
                 DateTimeStyles.None,
                 out DateTime parsedDate))
             {
+                _logger.LogWarning("Invalid publication date format: {PublicationDate}", bookDTO.publication_date);
                 return BadRequest("Invalid publication date format.");
             }
 
@@ -118,6 +143,7 @@ namespace BookstoreApi.Controllers
 
             bookDTO.book_id = book.book_id;
 
+            _logger.LogInformation("Created new book with ID: {Id}", bookDTO.book_id);
             return CreatedAtAction(nameof(GetBook), new { id = bookDTO.book_id }, bookDTO);
         }
 
@@ -126,23 +152,27 @@ namespace BookstoreApi.Controllers
         {
             if (id != bookDTO.book_id)
             {
+                _logger.LogWarning("Book ID mismatch: {Id} - {BookId}", id, bookDTO.book_id);
                 return BadRequest("Book ID mismatch.");
             }
 
             var book = await _context.Books.FindAsync(id);
             if (book == null)
             {
+                _logger.LogWarning("Book not found: {Id}", id);
                 return NotFound();
             }
 
             // Validate author and genre
             if (!await _context.Authors.AnyAsync(a => a.author_id == bookDTO.author_id))
             {
+                _logger.LogWarning("Invalid author ID: {AuthorId}", bookDTO.author_id);
                 return BadRequest("Invalid author ID.");
             }
 
             if (!await _context.Genres.AnyAsync(g => g.genre_id == bookDTO.genre_id))
             {
+                _logger.LogWarning("Invalid genre ID: {GenreId}", bookDTO.genre_id);
                 return BadRequest("Invalid genre ID.");
             }
 
@@ -152,6 +182,7 @@ namespace BookstoreApi.Controllers
                 DateTimeStyles.None,
                 out DateTime parsedDate))
             {
+                _logger.LogWarning("Invalid publication date format: {PublicationDate}", bookDTO.publication_date);
                 return BadRequest("Invalid publication date format.");
             }
 
@@ -172,6 +203,7 @@ namespace BookstoreApi.Controllers
             {
                 if (!BookExists(id))
                 {
+                    _logger.LogWarning("Book not found: {Id}", id);
                     return NotFound();
                 }
                 else
@@ -191,6 +223,7 @@ namespace BookstoreApi.Controllers
                 image = book.image
             };
 
+            _logger.LogInformation("Updated book with ID: {Id}", id);
             return Ok(updatedBookDTO);
         }
 
@@ -200,12 +233,14 @@ namespace BookstoreApi.Controllers
             var book = await _context.Books.FindAsync(id);
             if (book == null)
             {
+                _logger.LogWarning("Book not found: {Id}", id);
                 return NotFound();
             }
 
             _context.Books.Remove(book);
             await _context.SaveChangesAsync();
 
+            _logger.LogInformation("Deleted book with ID: {Id}", id);
             return NoContent();
         }
 
@@ -215,12 +250,14 @@ namespace BookstoreApi.Controllers
         {
             if (image == null || image.Length == 0)
             {
+                _logger.LogWarning("No file uploaded.");
                 return BadRequest("No file uploaded.");
             }
 
             var book = await _context.Books.FindAsync(book_id);
             if (book == null)
             {
+                _logger.LogWarning("Book not found: {Id}", book_id);
                 return NotFound("Book not found.");
             }
 
@@ -240,11 +277,11 @@ namespace BookstoreApi.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception
-                Console.WriteLine($"Error uploading file: {ex.Message}");
+                _logger.LogError(ex, "Error uploading file for book ID: {BookId}", book_id);
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while uploading the image.");
             }
 
+            _logger.LogInformation("Uploaded image for book ID: {BookId}", book_id);
             return Ok(new { Status = "Success", ImagePath = book.image });
         }
 

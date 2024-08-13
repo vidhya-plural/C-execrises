@@ -10669,11 +10669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\BookstoreApi\\BookstoreApi\\BookstoreApi.csproj",
+      "projectUniqueName": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Bookstore\\BookstoreApi\\BookstoreApi\\BookstoreApi.csproj",
       "projectName": "BookstoreApi",
-      "projectPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\BookstoreApi\\BookstoreApi\\BookstoreApi.csproj",
+      "projectPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Bookstore\\BookstoreApi\\BookstoreApi\\BookstoreApi.csproj",
       "packagesPath": "D:\\Users\\vidhya\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\BookstoreApi\\BookstoreApi\\obj\\",
+      "outputPath": "D:\\Users\\vidhya\\Desktop\\csharp\\C-execrises\\Bookstore\\BookstoreApi\\BookstoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\vidhya\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,6 +6,7 @@ using BookstoreApi.DTOs;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace BookstoreApi.Controllers
 {
@@ -14,10 +15,12 @@ namespace BookstoreApi.Controllers
     public class AuthorsController : ControllerBase
     {
         private readonly BookstoreContext _context;
+        private readonly ILogger<AuthorsController> _logger;
 
-        public AuthorsController(BookstoreContext context)
+        public AuthorsController(BookstoreContext context, ILogger<AuthorsController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -34,11 +37,12 @@ namespace BookstoreApi.Controllers
                     })
                     .ToListAsync();
 
+                _logger.LogInformation("Fetched {Count} authors", authors.Count);
                 return Ok(authors);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error fetching authors: {ex.Message}");
+                _logger.LogError(ex, "Error fetching authors");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error fetching authors");
             }
         }
@@ -60,14 +64,16 @@ namespace BookstoreApi.Controllers
 
                 if (author == null)
                 {
+                    _logger.LogWarning("Author not found: {Id}", id);
                     return NotFound();
                 }
 
+                _logger.LogInformation("Fetched author: {Id}", id);
                 return Ok(author);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error fetching author {id}: {ex.Message}");
+                _logger.LogError(ex, "Error fetching author {Id}", id);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error fetching author");
             }
         }
@@ -88,11 +94,12 @@ namespace BookstoreApi.Controllers
 
                 authorDTO.author_id = author.author_id;
 
+                _logger.LogInformation("Created new author with ID: {Id}", authorDTO.author_id);
                 return CreatedAtAction(nameof(GetAuthor), new { id = authorDTO.author_id }, authorDTO);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error creating author: {ex.Message}");
+                _logger.LogError(ex, "Error creating author");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error creating author");
             }
         }
@@ -110,6 +117,7 @@ namespace BookstoreApi.Controllers
                 var author = await _context.Authors.FindAsync(id);
                 if (author == null)
                 {
+                    _logger.LogWarning("Author not found: {Id}", id);
                     return NotFound("Author not found");
                 }
 
@@ -119,7 +127,6 @@ namespace BookstoreApi.Controllers
                 _context.Entry(author).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
 
-                // Return the updated author as part of the response
                 var updatedAuthorDTO = new AuthorDTO
                 {
                     author_id = author.author_id,
@@ -127,12 +134,14 @@ namespace BookstoreApi.Controllers
                     biography = author.biography
                 };
 
+                _logger.LogInformation("Updated author with ID: {Id}", id);
                 return Ok(updatedAuthorDTO);
             }
             catch (DbUpdateConcurrencyException)
             {
                 if (!AuthorExists(id))
                 {
+                    _logger.LogWarning("Author not found: {Id}", id);
                     return NotFound("Author not found");
                 }
                 else
@@ -142,13 +151,10 @@ namespace BookstoreApi.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Exception: {ex.Message}");
+                _logger.LogError(ex, "Error updating author with ID: {Id}", id);
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while updating the author.");
             }
         }
-
-
-
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAuthor(int id)
@@ -158,17 +164,19 @@ namespace BookstoreApi.Controllers
                 var author = await _context.Authors.FindAsync(id);
                 if (author == null)
                 {
+                    _logger.LogWarning("Author not found: {Id}", id);
                     return NotFound();
                 }
 
                 _context.Authors.Remove(author);
                 await _context.SaveChangesAsync();
 
+                _logger.LogInformation("Deleted author with ID: {Id}", id);
                 return NoContent();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting author {id}: {ex.Message}");
+                _logger.LogError(ex, "Error deleting author with ID: {Id}", id);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error deleting author");
             }
         }

@@ -4,8 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole(); // Adds console logging
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -44,8 +49,8 @@ if (app.Environment.IsDevelopment())
 // Apply the CORS policy
 app.UseCors("AllowAllOrigins");
 
-app.UseAuthentication(); // Add authentication middleware
-app.UseAuthorization();  // Add authorization middleware
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseStaticFiles();
 
